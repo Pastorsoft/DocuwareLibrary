@@ -1,0 +1,26 @@
+{
+  "name": "libreriadocuware",
+  "version": "0.0.1",
+  "description": "Libreria para la integracion con Docuware",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://google.es",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "docuware",
+    "integrationDocuware"
+  ],
+  "author": "Pastorsoft",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  }
+}
